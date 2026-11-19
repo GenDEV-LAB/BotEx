@@ -1,0 +1,7 @@
+# BotEx ne dépend que de la bibliothèque standard Python 3.11+
+# (csv, json, urllib, logging, dataclasses, unittest...). Aucune installation requise
+# pour le paper trading, les backtests et le monitoring.
+#
+# Optionnel, uniquement si tu connectes réellement un exchange plus tard :
+# ccxt==4.*      # interface REST/WS commune (à installer hors du paper)
+# pandas==2.*    # analyses de données locales

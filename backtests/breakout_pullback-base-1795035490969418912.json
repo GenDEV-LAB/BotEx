@@ -1,0 +1,35 @@
+{
+  "run_id": "breakout_pullback-base-1795035490969418912",
+  "strategy": "breakout_pullback",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 11,
+  "win_rate": 0.0,
+  "pnl_usd": -109.28518100251074,
+  "expectancy_R": -1.0127739316268316,
+  "best_R": -1.008308752777808,
+  "worst_R": -1.0207009750042484,
+  "max_drawdown_pct": 10.928518100251063,
+  "fees_usd": 2.5678514995516917,
+  "slippage_usd": 2.56782648536106,
+  "funding_usd": 1.5249152852217005,
+  "config_snapshot": {
+    "params": {
+      "lookback": 20,
+      "atr_stop": 1.5
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

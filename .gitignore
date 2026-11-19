@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+*.synthetic.csv
+data/raw/*
+data/clean/*
+!data/raw/README.md
+!data/clean/README.md
+reports/*.md
+.DS_Store
+reports/heartbeat.txt
+state.json
+approvals/telegram_offset.txt
+reports/*.log

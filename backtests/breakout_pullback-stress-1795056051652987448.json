@@ -1,0 +1,35 @@
+{
+  "run_id": "breakout_pullback-stress-1795056051652987448",
+  "strategy": "breakout_pullback",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 51,
+  "win_rate": 0.45098039215686275,
+  "pnl_usd": -87.50016154995562,
+  "expectancy_R": -0.1745132029217096,
+  "best_R": 1.6308714330717888,
+  "worst_R": -1.1388345337995283,
+  "max_drawdown_pct": 10.493343091480954,
+  "fees_usd": 17.60944162490432,
+  "slippage_usd": 35.21889162562667,
+  "funding_usd": 7.828756850297118,
+  "config_snapshot": {
+    "params": {
+      "lookback": 20,
+      "atr_stop": 1.5
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 10.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": true
+  },
+  "data_sha256": "36f09e1da326f58217feaa855ac166a1604ee05042bcc050f74943da6a23ab0c",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence; kill switch triggered (drawdown from high-water mark)",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

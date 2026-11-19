@@ -1,0 +1,122 @@
+{
+  "fund_name": "BotEx",
+  "mode": "paper",
+  "version": 1,
+  "markets": [
+    "crypto",
+    "futures",
+    "forex",
+    "commodities",
+    "indices"
+  ],
+  "venue": "NOT_CONFIGURED",
+  "accounts_existing": [],
+  "timezone": "UTC",
+  "approval_window_utc": [
+    "08:00",
+    "20:00"
+  ],
+  "approval_window_assumed": true,
+  "capital_usd": 1000.0,
+  "risk_per_trade_pct": 1.0,
+  "max_daily_loss_pct": 5.0,
+  "kill_switch_drawdown_pct": 10.0,
+  "max_leverage": 5.0,
+  "max_leverage_confirmed": true,
+  "shorting": {
+    "allowed": true,
+    "venues": [
+      "perps",
+      "futures"
+    ],
+    "spot": false
+  },
+  "timeframes": [
+    "4h",
+    "1h",
+    "30m",
+    "15m",
+    "5m"
+  ],
+  "max_trades_per_day": 5,
+  "max_trades_per_day_assumed": false,
+  "holding_period": "TO_CONFIRM",
+  "experience": "intermediate",
+  "approvals_required": [
+    "go_live",
+    "size_increase",
+    "new_market",
+    "strategy_swap",
+    "leverage_change",
+    "rule_change"
+  ],
+  "data": {
+    "lookback_years": 4,
+    "min_sources_for_price": 2,
+    "allow_real_symbols": false,
+    "synthetic_symbols": [
+      "SIM01",
+      "SIM02",
+      "SIM03",
+      "SIM04",
+      "SIM05"
+    ],
+    "price_match_tolerance_bps": 5
+  },
+  "costs": {
+    "fee_bps_per_side_spot": 10.0,
+    "fee_bps_per_side_perps": 5.0,
+    "slippage_bps_per_side": 5.0,
+    "stress_slippage_multiplier": 2.0,
+    "funding_per_8h": 0.0001,
+    "funding_is_estimate": true
+  },
+  "backtest": {
+    "min_out_of_sample_trades": 50,
+    "walk_forward_tune_months": 12,
+    "walk_forward_test_months": 3,
+    "report_only_combined_test_windows": true
+  },
+  "risk_rules": {
+    "exchange_stop_required": true,
+    "no_martingale": true,
+    "no_averaging_down": true,
+    "no_widening_stop": true,
+    "withdrawals_off": true,
+    "key_rotation_days": 90
+  },
+  "notifications": {
+    "telegram_enabled": false
+  },
+  "event_blackout_minutes": {
+    "before": 30,
+    "after": 30,
+    "post_release_wait": 15
+  },
+  "max_holding_hours": 48,
+  "max_holding_hours_assumed": true,
+  "default_reward_risk": 2.0,
+  "default_reward_risk_assumed": true,
+  "max_leverage_approved_at_utc": "2026-11-18T21:03:00Z",
+  "max_trades_per_day_approved_at_utc": "2026-11-18T21:06:00Z",
+  "watchlist": [
+    {
+      "symbol": "XAUUSD",
+      "asset_class": "metals",
+      "venue": "LOCAL_PAPER",
+      "spot": true,
+      "short_allowed": false,
+      "data_source": "synthetic proxy SIMXAU",
+      "status": "LOCAL_PAPER",
+      "synthetic_proxy": "SIMXAU",
+      "timeframes": [
+        "4h",
+        "1h",
+        "30m",
+        "15m",
+        "5m"
+      ],
+      "added_at_utc": "2026-11-18T21:48:19Z"
+    }
+  ]
+}

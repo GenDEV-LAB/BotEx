@@ -1,0 +1,37 @@
+{
+  "run_id": "session_momentum-base-1795035660432078877",
+  "strategy": "session_momentum",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 6,
+  "win_rate": 0.5,
+  "pnl_usd": 17.43510144218893,
+  "expectancy_R": 0.39885169848986535,
+  "best_R": 1.989028825402748,
+  "worst_R": -1.0339123475940308,
+  "max_drawdown_pct": 1.8027795157704758,
+  "fees_usd": 1.9935014522270043,
+  "slippage_usd": 1.9935074769997319,
+  "funding_usd": 0.6834745968706027,
+  "config_snapshot": {
+    "params": {
+      "lookback": 20,
+      "start_hour": 7,
+      "end_hour": 12,
+      "atr_stop": 1.5
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

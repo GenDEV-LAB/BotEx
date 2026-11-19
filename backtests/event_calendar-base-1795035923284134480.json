@@ -1,0 +1,34 @@
+{
+  "run_id": "event_calendar-base-1795035923284134480",
+  "strategy": "event_calendar",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 0,
+  "win_rate": 0.0,
+  "pnl_usd": 0,
+  "expectancy_R": 0.0,
+  "best_R": 0.0,
+  "worst_R": 0.0,
+  "max_drawdown_pct": 0.0,
+  "fees_usd": 0,
+  "slippage_usd": 0,
+  "funding_usd": 0,
+  "config_snapshot": {
+    "params": {
+      "blackout": true
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "36f09e1da326f58217feaa855ac166a1604ee05042bcc050f74943da6a23ab0c",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

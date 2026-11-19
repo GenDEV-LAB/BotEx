@@ -1,0 +1,23 @@
+{
+  "run_id": "combined-session_momentum-1795036801684536794",
+  "strategy": "session_momentum",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 3,
+  "win_rate": 0.3333333333333333,
+  "pnl_usd": -7.090570574596308,
+  "expectancy_R": -0.23635235248654363,
+  "best_R": 1.1015921551021628,
+  "worst_R": -1.085998244660121,
+  "max_drawdown_pct": 1.085998244660118,
+  "fees_usd": 0.9757335872814107,
+  "slippage_usd": 0.9757326626599352,
+  "funding_usd": 0.4648866452826213,
+  "config_snapshot": {
+    "windows": 7
+  },
+  "data_sha256": "",
+  "notes": "combined out-of-sample test windows only; SYNTHETIC — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

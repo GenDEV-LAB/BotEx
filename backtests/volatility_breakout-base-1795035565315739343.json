@@ -1,0 +1,36 @@
+{
+  "run_id": "volatility_breakout-base-1795035565315739343",
+  "strategy": "volatility_breakout",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 15,
+  "win_rate": 0.2,
+  "pnl_usd": -99.58548662145252,
+  "expectancy_R": -0.6017441609487303,
+  "best_R": 1.965181315342324,
+  "worst_R": -1.034748871712079,
+  "max_drawdown_pct": 11.423528209005077,
+  "fees_usd": 8.18436359651255,
+  "slippage_usd": 8.184345458255327,
+  "funding_usd": 2.4794065029522736,
+  "config_snapshot": {
+    "params": {
+      "lookback": 20,
+      "percentile": 20,
+      "atr_stop": 1.0
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "36f09e1da326f58217feaa855ac166a1604ee05042bcc050f74943da6a23ab0c",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence; kill switch triggered (drawdown from high-water mark)",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}
