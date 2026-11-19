@@ -1,0 +1,36 @@
+{
+  "run_id": "carry_basis-base-1795035659980478258",
+  "strategy": "carry_basis",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 12,
+  "win_rate": 0.0,
+  "pnl_usd": -116.43293874585467,
+  "expectancy_R": -0.9700844494484723,
+  "best_R": -0.46241626770637345,
+  "worst_R": -1.017680598160433,
+  "max_drawdown_pct": 11.643293874585458,
+  "fees_usd": 3.6645227221207692,
+  "slippage_usd": 3.664496703720606,
+  "funding_usd": 1.3658238257206625,
+  "config_snapshot": {
+    "params": {
+      "funding_threshold": 0.0005,
+      "ema": 200,
+      "atr_stop": 2.0
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence; kill switch triggered (drawdown from high-water mark)",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

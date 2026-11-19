@@ -1,0 +1,37 @@
+{
+  "run_id": "trend_following-base-1795037134631671465",
+  "strategy": "trend_following",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 28,
+  "win_rate": 0.4642857142857143,
+  "pnl_usd": 10.53254694079751,
+  "expectancy_R": 0.040971222682036866,
+  "best_R": 1.8896224604504275,
+  "worst_R": -1.0582805688914099,
+  "max_drawdown_pct": 5.30159252341846,
+  "fees_usd": 8.04247960476565,
+  "slippage_usd": 8.042489308449584,
+  "funding_usd": 4.15473509647319,
+  "config_snapshot": {
+    "params": {
+      "fast": 20,
+      "slow": 50,
+      "atr_stop": 2.0,
+      "min_adx_proxy": 0.0
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "36f09e1da326f58217feaa855ac166a1604ee05042bcc050f74943da6a23ab0c",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

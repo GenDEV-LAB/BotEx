@@ -1,0 +1,36 @@
+{
+  "run_id": "volatility_breakout-base-1795035491044288128",
+  "strategy": "volatility_breakout",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 15,
+  "win_rate": 0.0,
+  "pnl_usd": -161.2449774128225,
+  "expectancy_R": -1.0309604765497642,
+  "best_R": -1.027689591576709,
+  "worst_R": -1.0363186846576722,
+  "max_drawdown_pct": 16.124497741282255,
+  "fees_usd": 8.176414257948364,
+  "slippage_usd": 8.176382154531153,
+  "funding_usd": 8.302133474660671,
+  "config_snapshot": {
+    "params": {
+      "lookback": 20,
+      "percentile": 20,
+      "atr_stop": 1.0
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

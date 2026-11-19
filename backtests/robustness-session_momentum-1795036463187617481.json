@@ -1,0 +1,99 @@
+{
+  "generated_at_utc": "2026-11-18T21:14:23Z",
+  "strategy": "session_momentum",
+  "source": "SYNTHETIC_SMOKE_TEST — not evidence",
+  "stable_sign_across_variants": false,
+  "variants": [
+    {
+      "variant": "base",
+      "trades": 6,
+      "pnl_usd": 17.4351,
+      "expectancy_R": 0.2965,
+      "worst_R": -1.086,
+      "max_drawdown_pct": 1.8,
+      "run_id": "session_momentum-base-1795036462836820047"
+    },
+    {
+      "variant": "fees_x2",
+      "trades": 6,
+      "pnl_usd": 15.4051,
+      "expectancy_R": 0.2631,
+      "worst_R": -1.1479,
+      "max_drawdown_pct": 1.88,
+      "run_id": "session_momentum-base-1795036462873065533"
+    },
+    {
+      "variant": "slippage_x2",
+      "trades": 6,
+      "pnl_usd": 14.1495,
+      "expectancy_R": 0.2422,
+      "worst_R": -1.1388,
+      "max_drawdown_pct": 1.88,
+      "run_id": "session_momentum-stress-1795036462909230224"
+    },
+    {
+      "variant": "atr_stop_1.5",
+      "trades": 6,
+      "pnl_usd": 17.4351,
+      "expectancy_R": 0.2965,
+      "worst_R": -1.086,
+      "max_drawdown_pct": 1.8,
+      "run_id": "session_momentum-base-1795036462949981890"
+    },
+    {
+      "variant": "atr_stop_2.5",
+      "trades": 6,
+      "pnl_usd": 17.002,
+      "expectancy_R": 0.285,
+      "worst_R": -0.8106,
+      "max_drawdown_pct": 0.81,
+      "run_id": "session_momentum-base-1795036462986686018"
+    },
+    {
+      "variant": "faster_ema",
+      "trades": 6,
+      "pnl_usd": 17.4351,
+      "expectancy_R": 0.2965,
+      "worst_R": -1.086,
+      "max_drawdown_pct": 1.8,
+      "run_id": "session_momentum-base-1795036463023873428"
+    },
+    {
+      "variant": "slower_ema",
+      "trades": 6,
+      "pnl_usd": 17.4351,
+      "expectancy_R": 0.2965,
+      "worst_R": -1.086,
+      "max_drawdown_pct": 1.8,
+      "run_id": "session_momentum-base-1795036463060212533"
+    },
+    {
+      "variant": "seed_7",
+      "trades": 17,
+      "pnl_usd": -70.3956,
+      "expectancy_R": -0.4252,
+      "worst_R": -1.0843,
+      "max_drawdown_pct": 7.1,
+      "run_id": "session_momentum-base-1795036463102627523"
+    },
+    {
+      "variant": "seed_101",
+      "trades": 20,
+      "pnl_usd": 0.0047,
+      "expectancy_R": 0.0049,
+      "worst_R": -1.0538,
+      "max_drawdown_pct": 4.23,
+      "run_id": "session_momentum-base-1795036463145501548"
+    },
+    {
+      "variant": "seed_202",
+      "trades": 9,
+      "pnl_usd": -15.1156,
+      "expectancy_R": -0.1636,
+      "worst_R": -1.0995,
+      "max_drawdown_pct": 3.08,
+      "run_id": "session_momentum-base-1795036463187023694"
+    }
+  ],
+  "verdict": "PENDING: requires verified data and 50+ out-of-sample trades"
+}

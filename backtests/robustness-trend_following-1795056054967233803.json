@@ -1,0 +1,99 @@
+{
+  "generated_at_utc": "2026-11-19T02:40:54Z",
+  "strategy": "trend_following",
+  "source": "SYNTHETIC_SMOKE_TEST — not evidence",
+  "stable_sign_across_variants": false,
+  "variants": [
+    {
+      "variant": "base",
+      "trades": 28,
+      "pnl_usd": 10.5325,
+      "expectancy_R": 0.041,
+      "worst_R": -1.0583,
+      "max_drawdown_pct": 5.3,
+      "run_id": "trend_following-base-1795056052973859200"
+    },
+    {
+      "variant": "fees_x2",
+      "trades": 28,
+      "pnl_usd": 2.5152,
+      "expectancy_R": 0.0126,
+      "worst_R": -1.1104,
+      "max_drawdown_pct": 5.53,
+      "run_id": "trend_following-base-1795056053208437180"
+    },
+    {
+      "variant": "slippage_x2",
+      "trades": 28,
+      "pnl_usd": -3.96,
+      "expectancy_R": -0.0107,
+      "worst_R": -1.1044,
+      "max_drawdown_pct": 5.57,
+      "run_id": "trend_following-stress-1795056053429475615"
+    },
+    {
+      "variant": "atr_stop_1.5",
+      "trades": 28,
+      "pnl_usd": -22.3657,
+      "expectancy_R": -0.0757,
+      "worst_R": -1.0763,
+      "max_drawdown_pct": 7.99,
+      "run_id": "trend_following-base-1795056053644953976"
+    },
+    {
+      "variant": "atr_stop_2.5",
+      "trades": 28,
+      "pnl_usd": 9.7846,
+      "expectancy_R": 0.0371,
+      "worst_R": -1.0642,
+      "max_drawdown_pct": 4.14,
+      "run_id": "trend_following-base-1795056053865855288"
+    },
+    {
+      "variant": "faster_ema",
+      "trades": 42,
+      "pnl_usd": -67.8147,
+      "expectancy_R": -0.1642,
+      "worst_R": -1.0857,
+      "max_drawdown_pct": 8.36,
+      "run_id": "trend_following-base-1795056054086870642"
+    },
+    {
+      "variant": "slower_ema",
+      "trades": 18,
+      "pnl_usd": 12.3793,
+      "expectancy_R": 0.0734,
+      "worst_R": -1.0676,
+      "max_drawdown_pct": 3.41,
+      "run_id": "trend_following-base-1795056054306434517"
+    },
+    {
+      "variant": "seed_7",
+      "trades": 41,
+      "pnl_usd": -62.1472,
+      "expectancy_R": -0.154,
+      "worst_R": -1.0621,
+      "max_drawdown_pct": 7.79,
+      "run_id": "trend_following-base-1795056054525369723"
+    },
+    {
+      "variant": "seed_101",
+      "trades": 20,
+      "pnl_usd": 34.5489,
+      "expectancy_R": 0.1726,
+      "worst_R": -1.037,
+      "max_drawdown_pct": 2.05,
+      "run_id": "trend_following-base-1795056054750148502"
+    },
+    {
+      "variant": "seed_202",
+      "trades": 25,
+      "pnl_usd": -34.9284,
+      "expectancy_R": -0.1403,
+      "worst_R": -1.0562,
+      "max_drawdown_pct": 5.21,
+      "run_id": "trend_following-base-1795056054966467663"
+    }
+  ],
+  "verdict": "PENDING: requires verified data and 50+ out-of-sample trades"
+}

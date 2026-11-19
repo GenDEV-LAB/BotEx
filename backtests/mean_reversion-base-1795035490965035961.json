@@ -1,0 +1,36 @@
+{
+  "run_id": "mean_reversion-base-1795035490965035961",
+  "strategy": "mean_reversion",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 14,
+  "win_rate": 0.0,
+  "pnl_usd": -153.98936818716513,
+  "expectancy_R": -1.0229042076690225,
+  "best_R": -1.0189259623806675,
+  "worst_R": -1.0289876774041737,
+  "max_drawdown_pct": 15.398936818716516,
+  "fees_usd": 5.804856451248036,
+  "slippage_usd": 5.804825568034413,
+  "funding_usd": 13.042009019013797,
+  "config_snapshot": {
+    "params": {
+      "period": 20,
+      "z_entry": 2.0,
+      "atr_stop": 1.5
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 5.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": false
+  },
+  "data_sha256": "",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "mean_reversion-stress-1795036800852589589",
+  "strategy": "mean_reversion",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 30,
+  "win_rate": 0.43333333333333335,
+  "pnl_usd": -66.14478366209676,
+  "expectancy_R": -0.22061475221849683,
+  "best_R": 1.6819533981992736,
+  "worst_R": -1.0960574099208529,
+  "max_drawdown_pct": 10.839280258860692,
+  "fees_usd": 9.548901500163618,
+  "slippage_usd": 19.097789401845116,
+  "funding_usd": 4.801822353636621,
+  "config_snapshot": {
+    "params": {
+      "period": 20,
+      "z_entry": 2.0,
+      "atr_stop": 1.5
+    },
+    "costs": {
+      "fee_bps_per_side_spot": 10.0,
+      "fee_bps_per_side_perps": 5.0,
+      "slippage_bps_per_side": 10.0,
+      "stress_slippage_multiplier": 2.0,
+      "funding_per_8h": 0.0001,
+      "funding_is_estimate": true
+    },
+    "stress": true
+  },
+  "data_sha256": "36f09e1da326f58217feaa855ac166a1604ee05042bcc050f74943da6a23ab0c",
+  "notes": "SYNTHETIC SMOKE TEST — not evidence; kill switch triggered (drawdown from high-water mark)",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}

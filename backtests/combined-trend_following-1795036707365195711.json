@@ -1,0 +1,23 @@
+{
+  "run_id": "combined-trend_following-1795036707365195711",
+  "strategy": "trend_following",
+  "symbol": "SIM01",
+  "synthetic": true,
+  "trades": 16,
+  "win_rate": 0.3125,
+  "pnl_usd": -38.64728168272389,
+  "expectancy_R": -0.2397632296125842,
+  "best_R": 1.8857635560212824,
+  "worst_R": -1.0582805688914096,
+  "max_drawdown_pct": 3.7801756676420726,
+  "fees_usd": 4.446660301833955,
+  "slippage_usd": 4.446654524870263,
+  "funding_usd": 2.199459707455716,
+  "config_snapshot": {
+    "windows": 7
+  },
+  "data_sha256": "",
+  "notes": "combined out-of-sample test windows only; SYNTHETIC — not evidence",
+  "data_source": "SYNTHETIC_SMOKE_TEST",
+  "verdict": "NOT_EVIDENCE"
+}
